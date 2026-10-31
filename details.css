@@ -1,0 +1,19 @@
+.flower-portal{left:60%}
+.poster:after{position:absolute;inset:12px;z-index:4;border:1px solid #53634a12;content:"";pointer-events:none}
+.flower-halo{border-color:#87947625;box-shadow:inset 0 0 45px #fff8}.halo-b{border-color:#b88b5021}
+.flower-portal{transition:transform .28s ease-out;will-change:transform}
+.lily-drawing{filter:drop-shadow(0 25px 30px #45523924)}
+.main-bloom .blade{stroke-width:1.35}.veins{opacity:.62}
+.side-date{padding:13px 9px;border-top:1px solid #b88b5040;border-bottom:1px solid #b88b5040}
+.orbit{filter:drop-shadow(0 0 4px #b88b502e)}
+.colophon{position:relative}
+.colophon:before{position:absolute;top:-2px;left:50%;width:44px;height:3px;background:#b88b5070;content:"";transform:translateX(-50%)}
+.bloom-button{display:inline-flex;align-items:center;gap:11px;margin-top:27px;padding:12px 15px;border:1px solid #7484687a;border-radius:2px;background:linear-gradient(135deg,#fffdf4e8,#e9eddfeb);color:#425840;font:8px var(--mono);letter-spacing:.12em;cursor:pointer;pointer-events:auto;box-shadow:0 5px 18px #42584012;transition:background .25s,border-color .25s,transform .25s,box-shadow .25s}
+.bloom-button>span{color:#ae804c;font-size:14px;transition:transform .5s}.bloom-button i{color:#a17b5b;font:normal 13px var(--mono);transition:transform .25s}
+.bloom-button:hover,.bloom-button:focus-visible{transform:translateY(-2px);border-color:#b88b50;background:#fffdf4;box-shadow:0 8px 24px #52664d18;outline:none}
+.bloom-button:hover>span{transform:rotate(90deg)}.bloom-button:hover i{transform:translate(2px,-2px)}.bloom-button:focus-visible{outline:2px solid #b88b50;outline-offset:4px}
+.bloom-phrase{position:relative;max-width:410px;min-height:58px;margin:17px 0 0;padding:11px 14px 11px 42px;border-left:1px solid #b88b50;background:linear-gradient(90deg,#dce3d350,transparent);color:#52664d;font:italic 500 clamp(17px,2vw,24px)/1.4 var(--serif);letter-spacing:.01em}
+.bloom-phrase:before{position:absolute;left:13px;top:10px;content:"✿";color:#b88b50;font:14px var(--serif)}.bloom-phrase[hidden]{display:none}.bloom-phrase.is-visible{animation:phrase-arrive .65s cubic-bezier(.2,.8,.2,1) both}.bloom-phrase.is-typing:after{content:"▋";display:inline-block;margin-left:3px;color:#a17b5b;font:12px var(--mono);animation:phrase-caret .7s steps(1,end) infinite}
+@keyframes phrase-arrive{from{opacity:0;transform:translateY(10px);filter:blur(3px)}to{opacity:1;transform:translateY(0);filter:blur(0)}}@keyframes phrase-caret{50%{opacity:0}}
+@media(max-width:760px){.bloom-button{margin-top:20px;padding:11px 12px;font-size:7px}.bloom-phrase{max-width:270px;margin-top:12px;font-size:17px}}
+@media(max-width:760px){.flower-portal{left:53%}.poster:after{inset:7px}.side-date{right:2px}}
